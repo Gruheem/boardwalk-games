@@ -66,6 +66,10 @@ h2 {
   color: white;
 }
 
+.button-bottom-margin {
+  margin-bottom: 2rem;
+}
+
 /*Navbar Styling*/
 #navbar {
   background-color: var(--primary-color);
@@ -96,6 +100,13 @@ h2 {
 #new-games .card,
 #fav-games .card {
   border: none;
+}
+
+/* Student Discount Styling */
+
+#student-discount {
+  background-color: var(--highlight-color);
+  color: white;
 }
 
 /* Footer / Contact Section */
