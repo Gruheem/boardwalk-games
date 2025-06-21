@@ -365,25 +365,26 @@
             </div>
             <!-- Reserve Game Form -->
             <div class="col-12">
-              <form class="row g-3">
-                <div class="col-md-2">
+              <form class="row g-3" action="success.html" method="GET">
+
+                <div class="col-xl-4">
                   <label for="name" class="form-label">Full name</label>
-                  <input type="text" class="form-control" id="name" />
+                  <input type="text" class="form-control" id="name" required/>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-xl-4">
                   <label for="phone-number" class="form-label">Phone number</label>
-                  <input type="number" class="form-control" id="phone-number" />
+                  <input type="number" class="form-control" id="phone-number" required/>
                 </div>
 
-                <div class="col-md-6">
+                <div class="col-xl-4">
                   <label for="email" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="email" />
+                  <input type="email" class="form-control" id="email" required/>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-xl-8">
                   <label for="game" class="form-label">Game selection</label>
-                  <select id="game" class="form-select">
+                  <select id="game" class="form-select" required>
                     <option value="" selected>Select game</option>
                     <option value="Galaxy Pioneers">Galaxy Pioneers</option>
                     <option value="Mystic Woods">Mystic Woods</option>
@@ -396,14 +397,14 @@
                   </select>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-xl-4">
                   <label for="date" class="form-label">Requested date</label>
-                  <input type="date" class="form-control" id="date" />
+                  <input type="date" class="form-control" id="date" required/>
                 </div>
 
 
-                <div class="col-12 ">
-                  <button type="submit" class="btn custom-button-outline button-bottom-margin">Submit</button>
+                <div class="col-12 d-flex justify-content-end">
+                  <button type="submit" class="btn custom-button-outline button-bottom-margin mt-2 align-right">Submit</button>
                 </div>
               </form>
             </div>
